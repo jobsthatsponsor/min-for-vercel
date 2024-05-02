@@ -1,0 +1,46 @@
+.button {
+  color: #fff;
+  border: none;
+  border-radius: 50px;
+  font-size: 0.9rem;
+  padding: 15px 25px;
+  cursor: pointer;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.button:hover {
+  opacity: 0.9;
+}
+
+.button:disabled {
+  opacity: 0.6;
+}
+
+.primary {
+  background-color: #111;
+}
+
+.secondary {
+  background-color: #03463A;
+  /* margin: 0 0 0 10px; */
+}
+
+.tertiary {
+  background-color: #F6FF94;
+  color: #023535;
+}
+
+.disabled {
+  opacity: 0.8;
+}
+
+/* Mobile */
+@media (max-width: 940px) {
+  .button {
+    font-weight: 500;
+  }
+}
+
+/* In-between `Mobile` and `Desktop` */
+@media (min-width: 941px) and (max-width: 1310px) {}

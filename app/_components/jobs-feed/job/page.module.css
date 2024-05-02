@@ -1,0 +1,185 @@
+.outerContainer {
+  max-width: 100%;
+  background-color: #fff;
+  margin: 0 0 20px 0;
+  border-radius: 5px;
+  padding: 20px;
+  position: relative;
+  z-index: 0;
+}
+
+.upperContainer {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.leftContainer {
+  width: 62%;
+}
+
+.rightContainer {
+  width: 38%;
+}
+
+.companyInfoContainer {
+  display: flex;
+  align-items: center;
+  margin: 0 0 10px 0;
+  text-decoration: none;
+  color: #111;
+}
+
+.companyInfoContainer h4 {
+  font-weight: 500;
+  font-size: 0.9rem;
+}
+
+.favicon {
+  width: 20px;
+  margin: 0 10px 0 0;
+}
+
+.titleAndAddedToPlatformOnContainer {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  margin: 0 0 20px 0;
+  max-width: 600px;
+}
+
+.titleAndAddedToPlatformOnContainer h2 {
+  display: flex;
+  font-weight: 500;
+  font-size: 1.2rem;
+  margin: 10px 15px 10px 0;
+}
+
+.addedToPlatformAndTooltipContainer {
+  display: flex;
+  align-items: center;
+}
+
+.addedToPlatformAndTooltipContainer span {
+  display: inline-block;
+  background-color: #f1f1f1;
+  padding: 8px 12px;
+  border-radius: 5px;
+  font-size: 0.8rem;
+  font-weight: 500;
+  color: #555;
+}
+
+.tooltipIcon {
+  height: 18px;
+  margin: 0 0 0 5px;
+}
+
+.tooltipIcon:hover {
+  cursor: pointer;
+}
+
+.sponsorshipIndicator {
+  font-size: 0.9rem;
+  display: flex;
+  align-items: center;
+  width: 100%;
+  background-color: #C8E1B8;
+  padding: 15px 18px;
+  border-radius: 5px;
+  color: #173C00;
+}
+
+.sponsorshipIndicator svg {
+  width: 32px;
+  margin: 0 10px 0 0;
+}
+
+.sponsorshipIndicatorHidden {
+  visibility: hidden;
+}
+
+.sponsorshipStatusEmphasisedText {
+  font-weight: 600;
+}
+
+.policyContainer {
+  width: 70%;
+  background-color: #f1f1f1;
+  border-left: 2px solid #111;
+  border-radius: 0 5px 5px 0;
+  padding: 10px 15px;
+  margin: 10px 0 0 0;
+}
+
+.policy {
+  font-size: 0.9rem;
+  font-weight: 400;
+  line-height: 1.5rem;
+}
+
+.lowerContainer {
+  display: flex;
+}
+
+.buttonContainer {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  margin: 10px 0 0 0;
+  width: 30%;
+}
+
+/* Mobile */
+@media (max-width: 940px) {
+  .outerContainer {
+    margin: 0 0 10px 0;
+  }
+
+  .leftContainer,
+  .rightContainer {
+    width: 100%;
+  }
+
+  .lowerContainer {
+    flex-wrap: wrap;
+  }
+
+  .policyContainer {
+    width: 100%;
+  }
+
+  .seeJobButton {
+    font-weight: 500;
+  }
+
+  .buttonContainer {
+    width: 100%;
+  }
+
+  .sponsorshipIndicator {
+    padding: 12px 15px;
+  }
+
+  .sponsorshipIndicator svg {
+    width: 32px;
+  }
+
+  .sponsorshipIndicatorHidden {
+    display: none;
+  }
+
+  .tooltipIcon {
+    display: none;
+  }
+}
+
+/* In-between `Mobile` and `Desktop` */
+@media (min-width: 941px) and (max-width: 1310px) {
+  .policyContainer {
+    width: 55%;
+  }
+
+  .buttonContainer {
+    width: 45%;
+  }
+}

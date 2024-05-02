@@ -1,0 +1,26 @@
+.a {
+  color: #111;
+  text-decoration: underline;
+  font-weight: 500;
+  font-size: 16px;
+}
+
+.a:hover {
+  text-decoration: none;
+}
+
+.button {
+  text-decoration: underline;
+  background-color: transparent;
+  color: #111;
+  -webkit-text-fill-color: #111;
+  font-weight: 500;
+  cursor: pointer;
+  outline: none;
+  border: 0;
+  font-size: 16px;
+}
+
+.button:hover {
+  text-decoration: none;
+}

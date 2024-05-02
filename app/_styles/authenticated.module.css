@@ -1,0 +1,28 @@
+.pageContainer {
+  margin: 0 auto;
+  max-width: 1400px;
+  display: flex;
+}
+
+.mainContentContainer {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+/* Mobile */
+@media (max-width: 940px) {
+  .pageContainer {
+    flex-wrap: wrap;
+    width: 100%;
+    padding: 0 0 60px 0;
+  }
+
+  .mainContentContainer {
+    width: 95vw;
+    margin: 0 auto;
+  }
+}
+
+/* In-between `Mobile` and `Desktop` */
+@media (min-width: 941px) and (max-width: 1310px) {}
